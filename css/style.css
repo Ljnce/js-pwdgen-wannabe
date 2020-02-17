@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Oscurato l'id number che sarebbe comparso sotto il "tuttoattaccato" */
+#answer #number,
+#anno{
+    display: none;
+}
