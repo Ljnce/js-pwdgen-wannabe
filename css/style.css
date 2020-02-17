@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+#format{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Oscurato l'id number che sarebbe comparso sotto il "tuttoattaccato" */
-#answer #number,
+#format #number,
 #anno{
     display: none;
 }
@@ -14,4 +19,8 @@
 #surname,
 #color{
     color: red;
+}
+
+#ora-esatta{
+    display: flex;
 }

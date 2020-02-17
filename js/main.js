@@ -1,4 +1,3 @@
-
 // Risposte alle domande
 var name = "Marco";
 var surname = "Rossi";
@@ -32,3 +31,19 @@ var anno2 = date.getFullYear();
 var anno2 = anno2 - 2000;
 
 document.getElementById('tuttoattaccato4').innerHTML = name + ';' + surname + ';' + color + ';' + anno2;
+
+
+
+
+//Aggiunta Ora
+var date = new Date();
+var ore = date.getHours();
+var minuti = date.getMinutes();
+var secondi = date.getSeconds();
+
+// document.getElementById('hours').innerHTML = ore;
+// document.getElementById('minutes').innerHTML = minuti;
+// document.getElementById('seconds').innerHTML = secondi;
+
+
+document.getElementById('ora-esatta').innerHTML = ore + ':' + minuti + ':' + secondi;
