@@ -9,3 +9,9 @@
 #anno{
     display: none;
 }
+
+#name,
+#surname,
+#color{
+    color: red;
+}

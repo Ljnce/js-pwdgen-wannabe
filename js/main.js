@@ -1,3 +1,4 @@
+
 // Risposte alle domande
 var name = "Marco";
 var surname = "Rossi";
@@ -15,12 +16,15 @@ console.log(number);
 
 // Alterntiva (con virgolette): var number = "20";
 
-document.getElementById('number').innerHTML = number;
 document.getElementById('tuttoattaccato').innerHTML = name + surname + color + number;
 
-// Data Anno Corrente
+// Exra 1 Data Anno Corrente
 var date = new Date();
 var anno = date.getFullYear();
 
-document.getElementById('anno').innerHTML = anno;
 document.getElementById('tuttoattaccato2').innerHTML = name + surname + color + anno;
+
+// Extra 2 Data Anno Corrente ';'
+document.getElementById('tuttoattaccato3').innerHTML = name + ';' + surname + ';' + color + ';' + anno;
+
+// Extra 3 Data Anno Corrente
