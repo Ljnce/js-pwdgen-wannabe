@@ -9,6 +9,12 @@
     justify-content: space-between;
 }
 
+#answer{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Oscurato l'id number che sarebbe comparso sotto il "tuttoattaccato" */
 #format #number,
 #anno{
@@ -22,5 +28,12 @@
 }
 
 #ora-esatta{
+    width: 50vw;
     display: flex;
+    justify-content: flex-end;
+}
+
+#signature{
+    display: flex;
+    margin: 0;
 }

@@ -4,8 +4,11 @@ var surname = "Rossi";
 var color = "arancione";
 
 document.getElementById('name').innerHTML = name;
+document.getElementById('name').style.fontSize = "20px";
 document.getElementById('surname').innerHTML = surname;
+document.getElementById('surname').style.fontSize = "20px";
 document.getElementById('color').innerHTML = color;
+document.getElementById('color').style.fontSize = "20px";
 
 // Tuttoattaccato
 // Utilizzando la somma e quindi levando i '' dai numeri:
@@ -15,12 +18,14 @@ var number = number + 10;
 // Alterntiva (con virgolette): var number = "20";
 
 document.getElementById('tuttoattaccato').innerHTML = name + surname + color + number;
+document.getElementById('tuttoattaccato').style.fontFamily = "oblique";
 
 // Exra 1 Data Anno Corrente
 var date = new Date();
 var anno = date.getFullYear();
 
 document.getElementById('tuttoattaccato2').innerHTML = name + surname + color + anno;
+document.getElementById('tuttoattaccato2').style.fontFamily = "italic";
 
 // Extra 2 Data Anno Corrente ';'
 document.getElementById('tuttoattaccato3').innerHTML = name + ';' + surname + ';' + color + ';' + anno;
